@@ -1,0 +1,169 @@
+═══════════════════════════════════════════════════════════════
+  SISTEMA DE GESTIÓN DE HABITACIONES - GUÍA DE INSTALACIÓN
+═══════════════════════════════════════════════════════════════
+
+📥 DESCARGA Y CONFIGURACIÓN INICIAL
+
+1. Descargar el archivo: Sistema_Gestion_Habitaciones.xlsm
+
+2. Abrirlo en Microsoft Excel 2016 o superior
+
+3. Cuando aparezca el mensaje de seguridad sobre macros:
+   ✅ Hacer clic en "Habilitar contenido" o "Enable Content"
+
+4. El sistema se inicializará automáticamente
+   - Se crearán 6 hojas de trabajo
+   - Se cargarán los datos base
+
+═══════════════════════════════════════════════════════════════
+  DESCRIPCIÓN DE HOJAS
+═══════════════════════════════════════════════════════════════
+
+📋 DASHBOARD
+  - Panel principal de control
+  - Botones de acceso rápido a todas las funciones
+  - Resumen de estado general
+
+🏘️  HABITACIONES
+  - Lista de 30 habitaciones
+  - Columnas: #, Estado, Control, Toallas, Llaves, Responsable, Fecha, Observaciones
+  - Estados: Disponible, Ocupada, Mantenimiento
+  - Permite actualizar datos diariamente
+
+📦 INVENTARIO
+  - Control de stock de items en almacén
+  - Items: Controles, Toallas, Llaves
+  - Columnas: Item, En Almacén, En Uso, Dadas de Baja, Total Original, Última Actualización
+  - Se sincroniza automáticamente con cambios en habitaciones
+
+🔍 OBSERVACIONES
+  - Registro detallado de problemas de mantenimiento
+  - Categorías: Cuarto, Camas, Muebles, Electrónicos, Baño, Otros
+  - Prioridades: Baja, Media, Alta
+  - Estados: Pendiente, Completada
+
+📊 REPORTES
+  - Generación automática de reportes diarios
+  - Imprimibles en formato profesional
+  - Consolida información de habitaciones e inventario
+
+📝 HISTORIAL
+  - Registro de todas las acciones realizadas
+  - Trazabilidad completa del sistema
+
+═══════════════════════════════════════════════════════════════
+  FUNCIONES DISPONIBLES
+═══════════════════════════════════════════════════════════════
+
+🎯 GESTIÓN DE HABITACIONES
+
+  [AGREGAR HABITACIÓN]
+  - Asigna nuevas habitaciones al sistema
+  - Inicializa con estado "Disponible"
+
+  [EDITAR HABITACIÓN]
+  - Modifica el estado de una habitación
+  - Actualiza fecha de inspección
+
+  [ACTUALIZAR ITEMS]
+  - Modifica cantidad de: Controles, Toallas, Llaves
+  - Sincroniza automáticamente con inventario
+
+  [BORRAR OBSERVACIÓN]
+  - Elimina observaciones rápidas de habitación
+
+  [BUSCAR HABITACIÓN]
+  - Búsqueda rápida de información de habitación específica
+
+🏪 GESTIÓN DE INVENTARIO
+
+  [DAR DE BAJA ITEMS]
+  - Registra items dañados o perdidos
+  - Reduce automáticamente el inventario disponible
+
+  [ACTUALIZAR INVENTARIO]
+  - Se actualiza automáticamente con cambios en habitaciones
+  - Mantiene sincronización en tiempo real
+
+⚠️  GESTIÓN DE OBSERVACIONES
+
+  [AGREGAR OBSERVACIÓN]
+  - Registra problemas de mantenimiento
+  - Asigna categoría y prioridad
+  - Vincula a habitación específica
+
+  [COMPLETAR OBSERVACIÓN]
+  - Marca observación como completada
+  - Asigna responsable de la reparación
+
+📋 REPORTES
+
+  [GENERAR REPORTE DIARIO]
+  - Crea resumen de estado del día
+  - Exportable a impresora
+
+  [IMPRIMIR REPORTE]
+  - Envía reporte directamente a impresión
+  - Formato profesional listo para entregar
+
+═══════════════════════════════════════════════════════════════
+  USO DIARIO
+═══════════════════════════════════════════════════════════════
+
+📅 MAÑANA (INICIO DE DÍA)
+1. Abrir Sistema_Gestion_Habitaciones.xlsm
+2. Ir a hoja "Habitaciones"
+3. Verificar estado de cada habitación
+4. Actualizar items faltantes o dañados
+5. Registrar nuevas observaciones de mantenimiento
+
+☑️  A DURANTE EL DÍA
+1. Mantener actualizado estado de ocupación
+2. Registrar items devueltos al almacén
+3. Agregar observaciones según se detecten problemas
+4. Dar de baja items irrecuperables
+
+🌙 FINAL DEL DÍA
+1. Completar todas las observaciones pendientes
+2. Hacer clic en [GENERAR REPORTE DIARIO]
+3. Revisar reporte
+4. Imprimir si es necesario
+5. Guardar archivo (Ctrl+S)
+
+═══════════════════════════════════════════════════════════════
+  CONSEJOS IMPORTANTES
+═══════════════════════════════════════════════════════════════
+
+✅ SIEMPRE:
+  - Guardar el archivo después de cambios importantes
+  - Mantener actualizado el estado de habitaciones
+  - Registrar observaciones de inmediato
+  - Hacer backup semanal del archivo
+
+❌ NUNCA:
+  - Modificar hojas directamente sin usar botones
+  - Agregar o eliminar filas manualmente
+  - Cambiar formato de encabezados
+  - Desactivar macros
+
+⚙️  SOLUCIÓN DE PROBLEMAS
+
+  ❓ "Las macros no funcionan"
+     → Habilitar contenido (pestaña de seguridad)
+     → Permitir macros en opciones de Excel
+
+  ❓ "Los botones no responden"
+     → Guardar como .XLSM (no .XLSX)
+     → Reiniciar Excel
+     → Ejecutar InicializarSistema nuevamente
+
+  ❓ "Quiero resetear datos"
+     → Ejecutar función LimpiarDatos
+     → Ejecutar InicializarSistema
+
+═══════════════════════════════════════════════════════════════
+
+📞 SOPORTE
+Para preguntas o problemas, consulte la documentación en README.md
+
+═══════════════════════════════════════════════════════════════
